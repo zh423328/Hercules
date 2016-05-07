@@ -229,8 +229,9 @@ void libconfig_yyfree (void * ,yyscan_t yyscanner );
 #define INITIAL 0
 #define COMMENT 1
 #define STRING 2
-#define INCLUDE 3
-#define SCRIPTBLOCK 4
+#define INCLUDE_F 3
+#define INCLUDE_D 4
+#define SCRIPTBLOCK 5
 
 #endif
 
@@ -343,8 +344,8 @@ extern int libconfig_yylex \
 #undef YY_DECL
 #endif
 
-#line 219 "scanner.l"
+#line 329 "scanner.l"
 
-#line 349 "scanner.h"
+#line 350 "scanner.h"
 #undef libconfig_yyIN_HEADER
 #endif /* libconfig_yyHEADER_H */
