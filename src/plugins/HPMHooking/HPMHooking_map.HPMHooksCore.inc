@@ -2370,8 +2370,6 @@ struct {
 	struct HPMHookPoint *HP_intif_create_pet_post;
 	struct HPMHookPoint *HP_intif_main_message_pre;
 	struct HPMHookPoint *HP_intif_main_message_post;
-	struct HPMHookPoint *HP_intif_wis_message_pre;
-	struct HPMHookPoint *HP_intif_wis_message_post;
 	struct HPMHookPoint *HP_intif_wis_message_to_gm_pre;
 	struct HPMHookPoint *HP_intif_wis_message_to_gm_post;
 	struct HPMHookPoint *HP_intif_saveregistry_pre;
@@ -2498,10 +2496,6 @@ struct {
 	struct HPMHookPoint *HP_intif_request_accinfo_post;
 	struct HPMHookPoint *HP_intif_CheckForCharServer_pre;
 	struct HPMHookPoint *HP_intif_CheckForCharServer_post;
-	struct HPMHookPoint *HP_intif_pWisMessage_pre;
-	struct HPMHookPoint *HP_intif_pWisMessage_post;
-	struct HPMHookPoint *HP_intif_pWisEnd_pre;
-	struct HPMHookPoint *HP_intif_pWisEnd_post;
 	struct HPMHookPoint *HP_intif_pWisToGM_sub_pre;
 	struct HPMHookPoint *HP_intif_pWisToGM_sub_post;
 	struct HPMHookPoint *HP_intif_pWisToGM_pre;
@@ -8417,8 +8411,6 @@ struct {
 	int HP_intif_create_pet_post;
 	int HP_intif_main_message_pre;
 	int HP_intif_main_message_post;
-	int HP_intif_wis_message_pre;
-	int HP_intif_wis_message_post;
 	int HP_intif_wis_message_to_gm_pre;
 	int HP_intif_wis_message_to_gm_post;
 	int HP_intif_saveregistry_pre;
@@ -8545,10 +8537,6 @@ struct {
 	int HP_intif_request_accinfo_post;
 	int HP_intif_CheckForCharServer_pre;
 	int HP_intif_CheckForCharServer_post;
-	int HP_intif_pWisMessage_pre;
-	int HP_intif_pWisMessage_post;
-	int HP_intif_pWisEnd_pre;
-	int HP_intif_pWisEnd_post;
 	int HP_intif_pWisToGM_sub_pre;
 	int HP_intif_pWisToGM_sub_post;
 	int HP_intif_pWisToGM_pre;
