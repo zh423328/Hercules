@@ -94,14 +94,14 @@ extern int libconfig_yydebug;
 
 union YYSTYPE
 {
-#line 86 "grammar.y" /* yacc.c:1915  */
+#line 86 "grammar.y" /* yacc.c:1909  */
 
   int ival;
   long long llval;
   double fval;
   char *sval;
 
-#line 105 "grammar.h" /* yacc.c:1915  */
+#line 105 "grammar.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;
