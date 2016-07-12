@@ -599,6 +599,10 @@ static yyconst flex_int32_t yy_rule_can_match_eol[51] =
 #ifdef _MSC_VER
 #pragma warning (disable: 4996)
 #endif
+#if defined(__clang__)
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wshorten-64-to-32"
+#endif // __clang__
 
 #include <stdlib.h>
 #include <errno.h>
@@ -2566,5 +2570,9 @@ void libconfig_yyfree (void * ptr , yyscan_t yyscanner)
 }
 
 #define YYTABLES_NAME "yytables"
+
+#if defined(__clang__)
+#pragma clang diagnostic pop
+#endif // __clang__
 
 #line 329 "scanner.l"
